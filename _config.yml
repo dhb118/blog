@@ -1,64 +1,23 @@
 # Site settings
-title: Will's Blog
-header-img: "img/autumn2.jpg"
-tagline: "喵？"  
-description: "Good coding Good life"  
-baseurl: ""
-url: "http://azeril.me"  
+title: DHB
+email: will.duan118@gmail.com
+description: Will's Blog
+# > # this means to ignore newlines until "baseurl:"
+#   Write an awesome description for your new site here. You can edit this
+#   line in _config.yml. It will appear in your document head meta (for
+#   Google search results) and in your feed.xml site description.
 
-# About/contact
-owner: 
-  name: "Will"
-  email: will.duan118@gmail.com
-  bio: "明朝即長路 惜取此時心"
+# baseurl: "" # the subpath of your site, e.g. /blog/
+# url: "http://yourdomain.com" # the base hostname & protocol for your site
+# twitter_username: jekyllrb
+github_username:  dhb118
+permalink: /:year/:month/:day/:title/
 
-# Data
-gavatar: http://dreamofbook.qiniudn.com/Az..png
-favicon: img/favicon.png
-
-douban_username: Azeril
-twitter_username: Azeril_Lapland  
-github_username: Azeril  
-facebook_username: Azeril_Lapland  
-weibo_username: Azeril  
-zhihu_username: Azeril  
-
-# Build settings  
-# use Github Flavored Markdown !important  
-# document: http://jekyllrb.com/docs/configuration/#kramdown  
+# Build settings
 markdown: kramdown
-highlighter: pygments
-permalink: pretty
-paginate: 8
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
-relative_permalinks: true
 
-# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone: Asia/Shanghai
-
-# Defaults for posts
-defaults:
-  -
-    scope: 
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      author: "Azeril"
-      header-img: "img/fantasy.jpg" # We don't want posts without a header image, that whould mean white on white
-
-# Comments 
-comments :
-  provider : duoshuo
-  duoshuo :
-    short_name : Azeril
-  disqus :
-      short_name : Azeril
-
-# Analytics and webmaster tools stuff goes here
-google_analytics: UA-66863061-1
-google_verify:
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
-
-# Links to include in footer navigation
+# highlight
+# 本地用rouge, github上用pygments
+# highlighter: pygments
+# highlighter: rouge
+# highlighter: false
