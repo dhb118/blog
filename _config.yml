@@ -1,15 +1,15 @@
 # Site settings
-title: Microdust
+title: Will's Blog
 header-img: "img/autumn2.jpg"
 tagline: "喵？"  
-description: "在遙遠的地方 一切虔誠終必相遇"  
+description: "Good coding Good life"  
 baseurl: ""
 url: "http://azeril.me"  
 
 # About/contact
 owner: 
-  name: "Azeril"
-  email: azeril@live.cn
+  name: "Will"
+  email: will.duan118@gmail.com
   bio: "明朝即長路 惜取此時心"
 
 # Data
